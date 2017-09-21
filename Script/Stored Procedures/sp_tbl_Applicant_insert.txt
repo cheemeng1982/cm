@@ -1,0 +1,71 @@
+-- ********************************************************************
+-- Copyright 2017 All rights reserved 
+-- 
+-- Procedure Name:  sp_tbl_Applicant_ins
+--
+-- Purpose:     
+--
+-- Returns:  	 
+--
+-- Called by:     
+-- Calls:         
+-- Author:        Cliff
+-- Date Created:  13/09/2017
+--
+--
+-- ********************************************************************
+-- ********************************************************************
+if exists ( select * from sysobjects where id = object_id('dbo.sp_tbl_Applicant_insert') )
+	drop proc dbo.sp_tbl_Applicant_insert
+go
+
+CREATE PROC dbo.sp_tbl_Applicant_insert 
+
+@xFirstName nvarchar(100),
+@xLastName nvarchar(100),
+@xCompanyName nvarchar(200),
+@xPhone nvarchar(100),
+@xEmail nvarchar(150),
+@xCorrespondenceAddress nvarchar(500),
+@xJobTitle nvarchar(150),
+@xJobSpecification nvarchar(150),
+@xLocationId int,
+@xSubLocationId int,
+@xIndustryId int,
+@xSalaryRangeId int,
+@ReturnValue int OUTPUT
+
+AS
+
+BEGIN TRY
+	SET NOCOUNT ON
+	
+	BEGIN TRAN ProcessApplicantData
+
+		INSERT INTO tbl_Applicant(FirstName, LastName, CompanyName, Phone, Email, CorrespondenceAddress, JobTitle, JobSpecification, LocationId, SubLocationId, IndustryId, SalaryRangeId, CreationDate)
+		VALUES(@xFirstName, @xLastName, @xCompanyName, @xPhone, @xEmail, @xCorrespondenceAddress, @xJobTitle, @xJobSpecification, @xLocationId, @xSubLocationId, @xIndustryId, @xSalaryRangeId, SYSDATETIME())
+
+		SET @ReturnValue = SCOPE_IDENTITY()
+		
+	COMMIT TRAN ProcessApplicantData
+
+	SET NOCOUNT OFF
+	
+END TRY  
+BEGIN CATCH
+	ROLLBACK TRAN ProcessApplicantData
+	RETURN -2
+END CATCH
+
+If @@Error <> 0
+BEGIN
+	RETURN -1
+END
+
+RETURN 0
+
+GO
+
+
+
+

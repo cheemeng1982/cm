@@ -12,7 +12,7 @@
     </asp:Panel>
 
     <div>
-        <asp:GridView ID="gvViewApplicant" runat="server" AutoGenerateColumns="False" OnPageIndexChanging="gvViewApplicant_PageIndexChanging" Width="100%" AllowPaging="True" PageSize="1" OnRowCreated="gvViewApplicant_RowCreated">
+        <asp:GridView ID="gvViewApplicant" runat="server" AutoGenerateColumns="False" OnPageIndexChanging="gvViewApplicant_PageIndexChanging" Width="100%" AllowPaging="True" PageSize="10" OnRowCreated="gvViewApplicant_RowCreated">
 
             <HeaderStyle HorizontalAlign="Center" BackColor="#2D96CE" ForeColor="White" />
             <AlternatingRowStyle BackColor="#D4EFFD" />
