@@ -1,0 +1,20 @@
+D:\Academic\Web Services\Assignment\Assignment Web Services\Source Code\BookSellerWebService\bin\BookSellerWebService.dll
+D:\Academic\Web Services\Assignment\Assignment Web Services\Source Code\BookSellerWebService\bin\BookSellerWebService.pdb
+D:\Academic\Web Services\Assignment\Assignment Web Services\Source Code\BookSellerWebService\obj\Debug\ResolveAssemblyReference.cache
+D:\Academic\Web Services\Assignment\Assignment Web Services\Source Code\BookSellerWebService\obj\Debug\BookSellerWebService.dll
+D:\Academic\Web Services\Assignment\Assignment Web Services\Source Code\BookSellerWebService\obj\Debug\BookSellerWebService.pdb
+D:\WebService\Source Code\BookSellerWebService\bin\BookSellerWebService.dll
+D:\WebService\Source Code\BookSellerWebService\bin\BookSellerWebService.pdb
+D:\WebService\Source Code\BookSellerWebService\obj\Debug\ResolveAssemblyReference.cache
+D:\WebService\Source Code\BookSellerWebService\obj\Debug\BookSellerWebService.dll
+D:\WebService\Source Code\BookSellerWebService\obj\Debug\BookSellerWebService.pdb
+C:\Web Services\Assignment\Assignment Web Services\Source Code\BookSellerWebService\bin\BookSellerWebService.dll.config
+C:\Web Services\Assignment\Assignment Web Services\Source Code\BookSellerWebService\bin\BookSellerWebService.dll
+C:\Web Services\Assignment\Assignment Web Services\Source Code\BookSellerWebService\bin\BookSellerWebService.pdb
+C:\Web Services\Assignment\Assignment Web Services\Source Code\BookSellerWebService\obj\Debug\BookSellerWebService.dll
+C:\Web Services\Assignment\Assignment Web Services\Source Code\BookSellerWebService\obj\Debug\BookSellerWebService.pdb
+C:\Assignment\Assignment Web Services\Source Code\BookSellerWebService\bin\BookSellerWebService.dll.config
+C:\Assignment\Assignment Web Services\Source Code\BookSellerWebService\bin\BookSellerWebService.dll
+C:\Assignment\Assignment Web Services\Source Code\BookSellerWebService\bin\BookSellerWebService.pdb
+C:\Assignment\Assignment Web Services\Source Code\BookSellerWebService\obj\Debug\BookSellerWebService.dll
+C:\Assignment\Assignment Web Services\Source Code\BookSellerWebService\obj\Debug\BookSellerWebService.pdb

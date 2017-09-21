@@ -1,0 +1,45 @@
+.tblCheckoutCart
+{
+    margin:10px;
+    width:97%;
+    *margin-top:25px;
+}
+
+.gridHeader
+{
+    color:#FFFFFF;
+    font-weight:bold;
+    vertical-align:middle;
+    text-align:left;
+    background-color:green;
+}
+
+.cellItem
+{
+    border-bottom: solid 1px #888888;
+}
+
+html:not([lang*=""]) .divTotalPrice
+{
+    float:right;
+}
+
+.divTotalPrice
+{
+    font-weight:bold;
+    padding:5px 15px 10px 0px;
+    *width:95%;
+    text-align:right;
+}
+
+span.checkoutHeader
+{
+    margin-left:10px; 
+    vertical-align:top;
+    line-height:50px;
+    *position:relative;
+    *top:15px;
+}
+
+
+

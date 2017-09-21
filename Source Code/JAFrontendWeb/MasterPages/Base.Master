@@ -1,0 +1,115 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Base.master.cs" Inherits="JAFrontendWeb.MasterPages.Base" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>JA Web - Web Service Client Application</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=7" />
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="../Stylesheets/master_base.css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="scriptManagerBase" runat="server" ScriptMode="Release" LoadScriptsBeforeUI="false">
+        </asp:ScriptManager>
+        <div>
+            <table class="mainContent" border="0" cellpadding="0" cellspacing="0" width="930px" height="100%" align="center">
+                <tbody>
+                    <tr height="100%">
+                        <%-- Frame Top --%>
+                        <td colspan="3" class="frameTopHeader">
+                            <div class="bannerBook">
+                                <img src="../../images/banner_book.jpg" />
+                            </div>
+                            <div class="bannerHeader">
+                                <h1>
+                                    Job Application Web
+                                </h1>
+                            </div>
+                            <asp:Panel ID="panelLogout" runat="server" CssClass="panelLogout" Visible="false">
+                                <asp:LinkButton ID="linkLogout" runat="server" Text="Logout" OnClick="linkLogout_Click"></asp:LinkButton>
+                            </asp:Panel>
+                            <div class="clock">
+                                <div>
+                                    <asp:Label ID="lblTodayDate" runat="server"></asp:Label>
+                                </div>
+                                <div  class="dateTime">
+                                    <input type="text" id="clock" size="13"/>
+                                </div>
+                                <span class="clear"></span>
+                            </div>
+                            <div class="welcomeMessage">
+                                <asp:Label ID="lblWelcome" runat="server"></asp:Label>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <div class="frameDivider">&nbsp;</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="mainContainer" valign="top">
+                            <%-- Frame Container --%>
+                            <div class="frameContainer">
+                                <table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                            </td>
+                                            <td valign="top" class="containerLeft">
+                                                <asp:ContentPlaceHolder ID="cphLeftContainer" runat="server">
+                                                </asp:ContentPlaceHolder>
+                                            </td>
+                                            <td class="containerVerticalDivider">
+                                            </td>
+                                            <td valign="top" class="containerMiddle">
+                                                <asp:ContentPlaceHolder ID="cphMiddleContainer" runat="server">
+                                                </asp:ContentPlaceHolder>
+                                            </td>
+                                            <td class="containerVerticalDivider">
+                                            </td>
+                                            <td valign="top" class="containerRight">
+                                                <asp:ContentPlaceHolder ID="cphRightContainer" runat="server">
+                                                </asp:ContentPlaceHolder>
+                                            </td>
+                                            <td>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <span class="clear"></span>
+                            </div>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <span class="clear"></span>
+        </div>
+    </form>
+    
+    <script type="text/javascript" language="javascript">
+      <!-- 
+      
+      function displayClock() {
+        var Today = new Date();
+        var hours = Today.getHours();
+        var min = Today.getMinutes();
+        var sec = Today.getSeconds();
+        var Time = ((hours > 12) ? hours - 12 :(hours == 0) ? 12 :hours);
+        Time += ((min < 10) ? ":0" : ":") + min;
+        Time += ((sec < 10) ? ":0" : ":") + sec;
+        Time += (hours >= 12) ? " PM" : " AM";
+        document.getElementById('clock').value = Time;
+	    setTimeout("displayClock()",1000);
+      } 
+
+      displayClock(); 
+
+      -->
+    </script> 
+</body>
+</html>

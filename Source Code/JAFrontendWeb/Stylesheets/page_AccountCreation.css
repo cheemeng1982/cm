@@ -1,0 +1,151 @@
+.accountCreationOuterWrapper
+{
+    font-family:Verdana,Arial,Helvetica,sans-serif;
+    font-size:11px;
+    color:#000000;
+    margin:5px 8px;
+}
+
+input, select
+{
+    font-family:Verdana,Arial,Helvetica,sans-serif;
+    font-size:11px;
+}
+
+span.accountHeader
+{
+    margin-left:10px; 
+    vertical-align:top;
+    line-height:50px;
+    *position:relative;
+    *top:15px;
+}
+
+.accountCreationOuterWrapper table td
+{
+    vertical-align:top;
+    font-size:11px;
+}
+
+    table td.lblTitle
+    {
+        font-weight:bold;
+        width:110px;
+    }
+
+div.container 
+{
+	background:transparent url('../../images/boxBR.jpg') no-repeat scroll right bottom;
+	margin:0pt 0pt 10px 0px;
+	padding:0pt;
+	width:auto;
+}
+
+	div.container .containerHead 
+	{
+		background:transparent url('../../images/boxTR.gif') no-repeat scroll right top;
+		margin:0pt;
+		padding:0pt;
+	}
+
+		div.container .containerHead .containerHeadInner 
+		{
+			background:transparent url('../../images/boxTL.gif') no-repeat scroll left top;
+			height:20px;
+			margin:0pt;
+			padding:0pt;
+		}
+		
+	div.container .containerBody 
+	{
+		background:transparent url('../../images/boxBL.jpg') no-repeat scroll left bottom;
+		margin:0pt;
+		padding:0pt;
+	}
+
+.buttonContainer
+{
+	padding-top:10px;
+	float:right;
+}
+
+	.buttonContainer div
+	{
+		float:left;
+		margin-right:15px;
+		*margin-right:8px;
+	}
+
+div.containerEdit 
+{
+	background:transparent url('../../images/boxEditBR.gif') no-repeat scroll right bottom;
+	margin:0pt 0pt 10px 0px;
+	padding:0pt;
+	width:auto;
+	*padding-bottom:8px;
+}
+
+	div.containerEdit .containerEditHead 
+	{
+		background:transparent url('../../images/boxEditTR.gif') no-repeat scroll right top;
+		margin:0pt;
+		padding:0pt;
+	}
+
+		div.containerEdit .containerEditHead .containerEditHeadInner 
+		{
+			background:transparent url('../../images/boxEditTL.gif') no-repeat scroll left top;
+			height:20px;
+			margin:0pt;
+			padding:0pt;
+		}
+		
+	div.containerEdit .containerEditBody 
+	{
+		background:transparent url('../../images/boxEditBL.gif') no-repeat scroll left bottom;
+		margin:0pt;
+		padding: 0px 10px 15px 10px;
+		*padding-bottom:0px;
+	}
+
+.changePassword .btnContainer
+{
+    padding-right:50px;
+    padding-top:20px;
+    float:right;
+}
+
+    .changePassword .btnContainer input
+    {
+        background:transparent url(../../images/btn.orange.gif) repeat-x scroll 0 50%;
+        color:#FFFFFF;
+        font-weight:bold;
+    }
+    
+.errorNotice
+{
+    color:red;
+    padding:7px 0px;
+}
+
+.isRequired
+{
+    color:red;
+}
+
+.validationSummary 
+{
+    background:#F4F8AD url(../../images/warning_Icon.gif) no-repeat scroll 5px 12px;
+    margin:5px;
+    padding:2px;
+    *margin-top:0px;
+    *background-position-y:0px;
+}
+
+.userLogo
+{
+    background:#F4F8AD url(../../images/user_logo.jpg) no-repeat;
+    width:137px;
+    height:154px;
+    margin:20px 0px 0px 10px;
+}

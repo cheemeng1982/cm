@@ -1,0 +1,14 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Secondary.master.cs" Inherits="JAFrontendWeb.MasterPages.Secondary" MasterPageFile="~/MasterPages/Base.Master" %>
+<%@ MasterType VirtualPath="~/MasterPages/Base.Master" %>
+
+<asp:Content ID="phMiddleContainer" runat="server" ContentPlaceHolderID="cphMiddleContainer">
+    <div class="containerMid">
+        <asp:ContentPlaceHolder ID="cphMiddleContainer" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+</asp:Content>
+
+<asp:Content ID="phRightContainer" runat="server" ContentPlaceHolderID="cphRightContainer">
+    <asp:ContentPlaceHolder ID="cphRightContainer" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>

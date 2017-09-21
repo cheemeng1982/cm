@@ -1,0 +1,26 @@
+D:\Academic\Web Services\Assignment\Assignment Web Services\Source Code\LogToBookSeller\bin\LogToBookSeller.dll
+D:\Academic\Web Services\Assignment\Assignment Web Services\Source Code\LogToBookSeller\bin\LogToBookSeller.pdb
+D:\Academic\Web Services\Assignment\Assignment Web Services\Source Code\LogToBookSeller\obj\Debug\ResolveAssemblyReference.cache
+D:\Academic\Web Services\Assignment\Assignment Web Services\Source Code\LogToBookSeller\obj\Debug\LogToBookSeller.dll
+D:\Academic\Web Services\Assignment\Assignment Web Services\Source Code\LogToBookSeller\obj\Debug\LogToBookSeller.pdb
+D:\Academic\Web Services\Assignment\Assignment Web Services\Source Code\LogToBookSeller\bin\Telerik.Web.UI.dll
+D:\WebService\Source Code\LogToBookSeller\bin\LogToBookSeller.dll
+D:\WebService\Source Code\LogToBookSeller\bin\LogToBookSeller.pdb
+D:\WebService\Source Code\LogToBookSeller\bin\Telerik.Web.UI.dll
+D:\WebService\Source Code\LogToBookSeller\obj\Debug\ResolveAssemblyReference.cache
+D:\WebService\Source Code\LogToBookSeller\obj\Debug\LogToBookSeller.dll
+D:\WebService\Source Code\LogToBookSeller\obj\Debug\LogToBookSeller.pdb
+C:\Web Services\Assignment\Assignment Web Services\Source Code\LogToBookSeller\bin\LogToBookSeller.dll.config
+C:\Web Services\Assignment\Assignment Web Services\Source Code\LogToBookSeller\bin\LogToBookSeller.dll
+C:\Web Services\Assignment\Assignment Web Services\Source Code\LogToBookSeller\bin\LogToBookSeller.pdb
+C:\Web Services\Assignment\Assignment Web Services\Source Code\LogToBookSeller\bin\Telerik.Web.UI.dll
+C:\Web Services\Assignment\Assignment Web Services\Source Code\LogToBookSeller\obj\Debug\LogToBookSeller.csprojResolveAssemblyReference.cache
+C:\Web Services\Assignment\Assignment Web Services\Source Code\LogToBookSeller\obj\Debug\LogToBookSeller.dll
+C:\Web Services\Assignment\Assignment Web Services\Source Code\LogToBookSeller\obj\Debug\LogToBookSeller.pdb
+C:\Assignment\Assignment Web Services\Source Code\LogToBookSeller\bin\LogToBookSeller.dll.config
+C:\Assignment\Assignment Web Services\Source Code\LogToBookSeller\bin\LogToBookSeller.dll
+C:\Assignment\Assignment Web Services\Source Code\LogToBookSeller\bin\LogToBookSeller.pdb
+C:\Assignment\Assignment Web Services\Source Code\LogToBookSeller\bin\Telerik.Web.UI.dll
+C:\Assignment\Assignment Web Services\Source Code\LogToBookSeller\obj\Debug\LogToBookSeller.csprojResolveAssemblyReference.cache
+C:\Assignment\Assignment Web Services\Source Code\LogToBookSeller\obj\Debug\LogToBookSeller.dll
+C:\Assignment\Assignment Web Services\Source Code\LogToBookSeller\obj\Debug\LogToBookSeller.pdb

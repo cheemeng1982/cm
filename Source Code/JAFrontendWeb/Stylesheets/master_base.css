@@ -1,0 +1,511 @@
+body
+{
+    background-image:url('../../images/bg.PNG');
+    background-repeat:repeat;
+    background-color:#FFFFFF;
+    font-family:Verdana,Arial,Helvetica,sans-serif;
+    font-size:11px;
+    color:#000000;
+    margin:0px;
+}
+
+.bannerHeader
+{
+    position:relative;
+    top:30px;
+    width:300px;
+    float:left;
+}
+
+    .bannerHeader h1
+    {
+        color:#434300;
+        margin:0;
+        padding:0;
+        font-size:25px;
+    }
+
+.panelLogout
+{
+    float:right;
+    margin-right:15px;
+    position:relative;
+    top:140px;
+}
+
+h2
+{ 
+    color: #32327F;
+    font-size:18px;
+    margin:8px 0px;
+}
+
+h3
+{
+    color: #32327F;
+    font-size:14px;
+}
+
+A:link 
+{
+    text-decoration: underline;
+}
+
+A:hover
+{
+    text-decoration: underline;
+}
+
+A:active
+{
+    text-decoration: underline;
+}
+
+a:visited
+{
+	text-decoration:underline;
+}
+
+span.clear
+{
+	clear:both;
+}
+
+html:not([lang*=""]) span.clear
+{
+	display:block;
+}
+
+.mainContent
+{
+    background-color:#FFFFFF;
+}
+
+td.frameTopHeader {
+    border-bottom:solid 0px #e9f995;
+    background-image:url('../../images/TopNav.jpg');
+    background-position:right;
+    background-repeat:repeat-y;
+    height:100px;
+}
+
+.frameDivider
+{
+	color: #ffffff;
+	background: #B2C037 url('../../images/green_bar.jpg');
+	display:block;
+	height:18px;
+	width:100%; 
+}
+
+    .frameDivider a
+    {
+        color:#FFFFFF;
+    }
+
+.mainContainer
+{
+    background-image:url('../../images/bg_gradient.jpg');
+	background-repeat:repeat-x;
+    background-color:white;
+}
+
+    .mainContainer .containerVerticalDivider
+    {
+        background: transparent url(../../images/gradient2.jpg) repeat-y scroll 0;
+        width: 1px;
+    }
+    
+    .mainContainer .containerRight
+    {
+        width:211px;
+        padding-left:7px;
+    }
+    
+    .mainContainer .containerLeft
+    {
+        width:211px;
+        padding-right:7px;
+    }
+    
+    .mainContainer .containerMiddle
+    {
+        width:450px;
+    }
+   
+.frameContainer
+{
+	background-image:url('../../images/bg_gradient.jpg');
+	background-repeat:repeat-x;
+	border-left:0px solid #ffffff;
+	margin:15px 10px;
+	min-height:600px;
+	/**height: expression(this.offsetHeight > 600? this.offsetHeight + 'px': '600px');*/
+	padding-top:12px;
+}
+
+.infoBox
+{
+    padding:0px;
+    border:1px solid #FFFFFF;
+}
+
+    .infoBox .infoBoxHeader
+    {
+        border-bottom:0px solid #d7e8a7;
+        background-image:url('../../images/header_title.PNG');
+        height:18px;
+        font-weight:bold;
+        font-family:Verdana;
+        color:#FFFFFF;
+        font-size:10pt;
+        padding:1px 1px 1px 5px ;
+    }
+
+    .infoBox  .infoBoxBody
+    {
+        padding:5px;
+    }
+    
+    .infoBox .toggleHeader
+    {
+        cursor:pointer;
+    }
+    
+.bannerBook
+{
+    display:block;
+    float:left;
+    height:170px;
+    position:relative;
+    top:12px;
+    width:450px;
+}
+
+    .bannerBook img
+    {
+        height:150px;
+    }
+
+.welcomeMessage
+{
+    float:left;
+    position:relative;
+    top:96px;
+    width:400px;
+    color:Green;
+    font-weight:bold;
+}
+    
+.navLink div
+{
+    list-style-position:inside;
+    margin:0px 0px 1px 8px;
+    background: url('');
+}
+
+.rptBookDisplay
+{
+    padding:10px 4px 10px 4px;
+    border-bottom:1px dotted #AFAFAF;
+}
+
+.rptBookDisplay td
+{
+    vertical-align:top;
+}
+
+.clock
+{
+    float:right;
+    position:relative;
+    top:141px;
+    font-weight:bold;
+    *width:255px;
+    text-align:right;
+}
+
+    .clock div
+    {
+        float:left;
+    }
+    
+    .clock .dateTime
+    {
+        width:130px;
+    }
+
+.clock input
+{
+	background-color:transparent;
+    border:medium none;
+    color:#164BA0;
+    float:right;
+    font-family:Verdana,Arial,Helvetica,sans-serif;
+    font-size:11px;
+    font-weight:bold;
+}
+
+.titlebar_Inox
+{
+    background:gray url('') !important;
+}
+
+.buttonOrange
+{
+    background: transparent url('../../images/btn.orange.gif') repeat-x 0;
+    color:#FFFFFF;
+    font-weight:bold;
+}
+
+.UserNavigation
+{
+    padding: 10px 10px 5px 10px;
+}
+
+    .UserNavigation div
+    {
+        background: transparent url('../../images/bullet_green.gif') no-repeat 0;
+        padding: 5px 0px 5px 20px;
+    }
+    
+    .UserNavigation .title
+    {
+        background:none;
+        padding-left:0px;
+        font-weight:bold;
+        color:#18940A;
+    }
+
+div.listItem
+{
+    background: transparent url(../../images/bullet_green.gif) no-repeat scroll 0 0%;
+    padding-left:16px;
+}
+
+.loginLock
+{
+    background: transparent url(../../images/lock.png) no-repeat scroll 0 0%;
+    height:255px;
+    left:30px;
+    position:absolute;
+    top:50px;
+    width:255px;
+}
+
+.loginContainer
+{
+    background-color:#FFFFFF;
+    height:auto;
+    left:300px;
+    position:relative;
+    top:65px;
+    width:300px;
+    padding-top:18px;
+}
+
+    .loginContainer .errorNotice
+    {
+        color:Red;
+        padding-left:15px;
+    }
+    
+    .loginContainer .btnLogin
+    {
+        float:right;
+    }
+
+.loginPanel
+{
+    padding:10px 10px;
+}
+
+    .loginPanel table td
+    {
+        vertical-align:top;
+    }
+    
+.filterHeader
+{
+    padding-left:10px;
+}
+
+.btnBuyNow
+{
+    float:right;
+    padding-right:10px;
+}
+
+/********************************************/
+/******** Cart ******************************/
+
+.cartContent
+{
+    padding:10px;
+    *padding: 10px 5px 0px 5px;
+}
+
+.cartHeader
+{
+    margin-left:10px;
+    line-height:30px;
+}
+
+#tblCart
+{
+    width:100%;
+}
+
+#totalPrice div
+{
+    border-bottom:1px double #AFAFAF;
+    border-top:1px double #AFAFAF;
+    float:right;
+    font-weight:bold;
+    margin-right:2px;
+    text-align:right;
+    width:80px;
+}
+
+.checkout
+{
+    float:left;
+    *padding-top:5px;
+    margin-top:10px;
+}
+
+/********************************************/
+
+/*************************************/
+/** Thrash box ***********************/
+div.container 
+{
+	background:transparent url('../../images/boxBR.jpg') no-repeat scroll right bottom;
+	margin:0pt 0pt 10px 0px;
+	padding:0pt;
+	width:auto;
+}
+
+	div.container .containerHead 
+	{
+		background:transparent url('../../images/boxTR.gif') no-repeat scroll right top;
+		margin:0pt;
+		padding:0pt;
+	}
+
+		div.container .containerHead .containerHeadInner 
+		{
+			background:transparent url('../../images/boxTL.gif') no-repeat scroll left top;
+			height:20px;
+			margin:0pt;
+			padding:0pt;
+		}
+		
+	div.container .containerBody 
+	{
+		background:transparent url('../../images/boxBL.jpg') no-repeat scroll left bottom;
+		margin:0pt;
+		padding:0pt;
+	}
+/*************************************/
+
+/*************************************/
+/*************Spinner****************/
+.mpbSpinner
+{
+    background-color: Gray;
+    filter: alpha(opacity=30);
+    opacity: 0.3;
+    cursor: wait;
+}
+.mpSpinner
+{
+    background:transparent url(../../images/loadingIcon.gif) no-repeat scroll 0;
+    border:0 dotted #333333;
+    cursor:wait;
+    width:55px;
+    height:56px;
+    left:45%;
+    padding:1px;
+    position:absolute;
+    top:50%;
+    z-index: 11000;
+}
+
+.mpIframe
+{
+    background-color: white;
+    border-width: 0px;
+    border-style: dotted;
+    border-color: #333;
+    padding: 1px;
+    width: 100px;
+}
+
+.mpbSpinnerProgress
+{
+	height:100%; 
+	width:100%; 
+	position: fixed; 
+	top:0px; 
+	left:0px; 
+	z-index: 10000;
+	_position: absolute;
+	_height: expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight: document.body.offsetHeight + 'px' );
+	_width: expression(document.documentElement.clientWidth + 'px');
+}
+
+#updateProgressHideSelect
+{
+    z-index: 15000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    border: none;
+    filter: alpha(opacity=0);
+    -moz-opacity: 0;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    display:none;
+}
+
+* html #updateProgressHideSelect
+{
+	display: inline !important;
+    position: absolute;
+    height: expression(document.body.scrollHeight > document.body.offsetHeight? document.body.scrollHeight: document.body.offsetHeight + 'px');
+}
+
+.loadingIcon
+{
+    background:transparent url(../../images/loadingIcon.gif) no-repeat scroll 0;
+    width:55px;
+    height:56px;
+}
+
+/*************************************/
+
+.validationSummary 
+{
+    background:#F4F8AD url(../../images/warning_Icon.gif) no-repeat scroll 5px 12px;
+    margin:5px;
+    padding:2px;
+    *margin-top:0px;
+    *background-position-y:0px;
+}
+
+.loginButtonContainer
+{
+    float:right;
+    padding-bottom:10px;
+}
+
+    .loginButtonContainer div
+    {
+        float:left;
+        margin-left:10px;
+        width:60px;
+        padding-top:20px;
+    }

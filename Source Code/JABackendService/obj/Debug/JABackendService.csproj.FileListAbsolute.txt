@@ -1,0 +1,6 @@
+C:\Assignment\Assignment Web Services\Source Code\JABackendService\bin\JABackendService.dll.config
+C:\Assignment\Assignment Web Services\Source Code\JABackendService\bin\JABackendService.dll
+C:\Assignment\Assignment Web Services\Source Code\JABackendService\bin\JABackendService.pdb
+C:\Assignment\Assignment Web Services\Source Code\JABackendService\obj\Debug\JABackendService.dll
+C:\Assignment\Assignment Web Services\Source Code\JABackendService\obj\Debug\JABackendService.pdb
+C:\Assignment\Assignment Web Services\Source Code\JABackendService\bin\Newtonsoft.Json.dll

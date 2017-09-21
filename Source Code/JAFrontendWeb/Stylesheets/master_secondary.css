@@ -1,0 +1,15 @@
+.mainContainer .containerLeft 
+{
+    display:none;
+}
+
+.mainContainer .containerMiddle
+{
+    width:670px;
+    *width:620px;
+}
+
+.containerMid
+{
+    padding:10px 15px;
+}
